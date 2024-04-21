@@ -1,0 +1,1016 @@
+body{
+    margin: 0;
+    background-color: rgba(88,114,103,255);
+    }
+
+.main_photo img{
+    width: 100%;
+    height: 650px;
+
+}
+
+
+.main_container{
+    width: 100%;
+    height: 1900px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.content{
+    width: 75%;
+    height: 2200px;
+    background-color: rgba(251,249,237,255);
+    border-radius: 30px;
+    position: relative;
+    bottom: 100px;
+}
+
+.first_box{
+    width: 100%;
+    height: 30%;
+    background-color: rgba(234,200,136,255);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom: dotted 5px red;}
+        
+
+ .header{
+    width: 100%;
+    height: 18%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1.5fr 40px 2fr 40px 0.1fr;
+    grid-template-columns: 1.5fr 2fr 0.1fr;
+
+    gap: 40px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    justify-items: center;
+    border-bottom:dotted 5px green; 
+}
+
+
+.logo img{
+    width: 150px;
+    height: 100px;
+    
+}
+
+
+.right_side{
+    height: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 40px;   
+}
+
+
+.right_side a{
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    font-weight: 400;   
+    color: rgba(89,113,104,255);
+}
+
+.right_side span{
+    color: rgba(193,92,55,255);
+}
+
+.right_side img{width: 20px;
+    height: 15px;
+    }
+
+    .burger_btn{
+
+
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .burger_btn img {    width: 30px;
+        display: none;
+        height: 40px;
+    
+    
+    }
+    .burger_box{
+        border-bottom: 5px dotted chocolate;
+        width: 100%;
+        height: 245px;
+        color: rgba(87,112,107,255);
+        
+    }
+    
+    .burger_box a{
+        color: rgba(87,112,107,255);
+        font-size: x-large;
+        line-height: 60px;
+    
+    }
+    
+    .burger_box span{
+        color: rgba(192,88,51,255);
+    }
+    
+    
+.burger_box img{
+    width: 40px;
+     height: 30px;
+}
+
+.slogani{
+    height: 70px;
+    text-align: center;
+    font-family: unicode;
+    color: green;
+    
+}
+
+.txt_slogani{
+   
+    width: 100%;
+    height: 140px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.slogani span{
+    color: red;
+}
+
+.box_container{
+    width: 100%;
+    height: 70%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+}
+
+.lisi_photo img{
+
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.lisi_info{
+    width: 400px;
+    height: 250px;
+
+    color: rgba(87,119,111,255);
+    overflow:auto;
+    border-radius:6px;
+    text-align:justify;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: medium;
+
+}
+
+.second_box{
+    width: 100%;
+    height: 28%;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: 5px dotted blue;
+}
+
+.shumba_info{
+    width: 400px;
+    height: 250px;
+
+    color: rgba(87,119,111,255);
+    overflow:auto;
+    border-radius:6px;
+    text-align:justify;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: medium;
+
+}
+
+.shumba_photo img{
+
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.area_box{
+    width: 100%;
+    height: 25%;
+    background-color:rgba(234,200,136,255);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: 5px dotted crimson;
+}
+
+.area_photo img{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.area_info{
+    width: 400px;
+    height: 250px;
+
+    color: rgba(87,119,111,255);
+    overflow:auto;
+    border-radius:6px;
+    text-align:justify;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: medium;}
+
+.person{
+    width: 100%;
+    height: 20%;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+
+}
+.person_photo {
+    width: 1100px;
+    height: 170px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+
+
+}
+.person_photo img {
+    width: 150px;
+    height: 170px;
+    border-radius: 20px;
+    -o-object-fit:cover;
+       object-fit:cover;}
+
+.person_name{
+    width: 1100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+    font-size: large;
+
+}
+
+.footer{width: 100%;
+    height:50px;
+    display: -ms-grid;
+    display: grid;
+    justify-items: center;
+    }
+.footer img{width: 100%;
+    height: 470px;
+}
+
+.footer_grid{
+    width: 76%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 350px 350px;
+    grid-template-columns: 350px 350px;
+    -ms-grid-rows: 80px ;
+    grid-template-rows: 80px ;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+
+    position: relative;
+    bottom: 84px;
+
+
+}
+
+.footer_grid > *:nth-child(1){
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+
+
+}
+
+.footer_grid > *:nth-child(2){
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+
+
+}
+
+.social{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack:center;
+        -ms-flex-pack:center;
+            justify-content:center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10px;
+}
+.social img {
+    width: 40px;
+    height: 40px;
+}
+.cont_info{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 2px;
+    color: rgba(7, 5, 5, 0.945);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+    font-size: medium;
+    line-height: 1px;
+    border: 4px dotted rgb(107, 4, 4);
+}
+.cont_info a{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(16, 13, 34, 0.894);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+    font-size: medium;
+    line-height: 20px;
+}
+@font-face {
+    font-family:unicode;
+    src: url(../fonts/3d_unicode\ 2.ttf);
+}
+@media screen and (max-width:600px) {
+    .header{height: 9%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+-ms-flex-pack: distribute;
+    justify-content: space-around;}
+    .content{
+        height: 3700px;
+    }
+    .main_container{
+
+        height: 3400px;
+    }
+    .right_side{display: none;}
+    .burger_btn img{display: block;}
+    .slogani{font-size: small; 
+
+
+}
+    .first_box{
+        height: 1150px;
+    }
+    .box_container{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+    }
+    .box_container img {
+        width: 220px;
+        height: 220px;
+
+    }
+    .lisi_info {
+        width: 200px;
+    }
+    .second_box{
+        height: 800px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+    }
+    .shumba_info{
+        width: 200px;
+    }
+    .shumba_photo img {
+        width: 220px;
+        height: 220px;
+    }
+    .area_box{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+
+    }
+    .area_box img {
+        width: 220px;
+        height: 220px;
+    }
+    .area_info{
+        width: 200px;
+    }
+    .person{
+
+        height: 970px;
+
+    }
+    .person_photo{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack:justify;
+            -ms-flex-pack:justify;
+                justify-content:space-between ;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        width:100%;
+        gap: 180px;
+
+    }
+    .person_photo img {
+        width: 200px;
+        height: 200px;
+    }
+    .person_name{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        width: 100%;
+        position: relative;
+        height: 500px;
+        gap: 250px;
+    }
+    .person_name p {
+        font-size: x-large;
+    }
+    .footer_grid{
+        width: 240px;
+        -ms-grid-columns: 1px 65px 240px;
+        grid-template-columns: 1px 240px;
+        gap: 65px;
+
+    }
+    .footer img{
+        -o-object-fit: cover;
+           object-fit: cover;
+    
+    
+    }
+    .cont_info{
+        width: 200px;
+    }
+    .social img{
+        width: 22px;
+        height: 22px;
+
+    }
+}
+@media screen and (min-width:600px) {
+    .content{
+        height: 4850px;
+    }
+    .main_container{
+        height: 4580px;
+    }
+    .header{
+
+        -ms-grid-columns: 1.5fr 1fr;
+
+        grid-template-columns: 1.5fr 1fr;
+
+        height: 150px;
+    }
+    .right_side{
+        display: none;
+    }
+    .burger_btn img {
+        display: block;
+    }
+    .slogani{
+        font-size:larger;
+        padding: 20px;
+    }
+    .first_box{
+        height: 1450px;
+
+    }
+    .box_container{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+    }
+    .box_container img{
+        width: 450px;
+        height: 400px;
+    }
+  
+    .lisi_info p {
+        font-size: x-large;
+    }
+    .second_box{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        height: 1250px;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+    }
+    .second_box img {
+        width: 450px;
+        height: 400px;
+    }
+    .second_box p{font-size: x-large;}
+
+    .area_box{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 1250px;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    }
+    .area_box img {
+        width: 450px;
+        height: 400px;
+    }
+    .area_box p {
+        font-size: x-large;
+    }
+    .person{
+
+        height: 970px;
+
+    }
+    .person_photo{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack:justify;
+            -ms-flex-pack:justify;
+                justify-content:space-between ;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        width:100%;
+        gap: 120px;
+
+    }
+    .person_photo img {
+        width: 250px;
+        height: 270px;
+
+    }
+    .person_name{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        width: 100%;
+        position: relative;
+        height:680px;
+        gap: 140px;
+    }
+    .person_name p {
+        font-size: x-large;
+    }
+}
+@media screen and (min-width:1200px) {
+    .burger_btn{display: none;}
+    .right_side{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .right_side a{font-size: 20px;}
+    .header{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        height: 12%;
+    }
+    .slogani{
+        font-size: larger;
+    }
+    .box_container{
+
+        display: -webkit-box;
+
+        display: -ms-flexbox;
+
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+
+
+    }
+    .lisi_photo img {
+        width: 410px;
+        height: 400px;
+    }
+    .lisi_info {
+        height: 300px;
+    }
+    .lisi_info p {
+        font-size: x-large;
+    }
+    .first_box{
+        height: 1050px;
+    }
+    .second_box{
+        height: 800px;
+
+      display: -webkit-box;
+
+      display: -ms-flexbox;
+
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+    }
+    .shumba_photo img {
+        width: 410px;
+        height: 400px;
+    }
+    .shumba_info {
+        height: 300px;
+    }
+    .shumba_info p {
+        font-size: x-large;
+    }
+    .area_box{
+        height: 800px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+
+    }
+    .area_photo img{
+        width: 410px ;
+        height:400px;
+    }
+    .area_info{
+        height: 300px;
+    }
+    .area_info p {
+        font-size: x-large;
+    }
+    .person_photo{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        -webkit-box-align:start;
+            -ms-flex-align:start;
+                align-items:start;
+
+        height: 300px;
+        
+
+    }
+    .person_photo img {
+        width: 230px;
+        height: 280px;
+    }
+    .person_name {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        height: 220px;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: start;
+
+
+
+        -ms-flex-pack: distribute;
+
+
+
+            justify-content: space-around;
+    }
+    .person_name p {
+        font-size: x-large;
+        
+    }
+    .person{
+        height: 600px;
+
+    }
+    .content{
+        height: 3150px;
+    }
+    .main_container{
+        height: 2800px;
+    }
+    .cont_info a {
+        font-size: large;
+
+    }
+    .cont_info {
+        font-size: large;
+    }
+
+}
+@media screen and (min-width :2560px) {
+    .header{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        height: 18%;
+
+        border-bottom: 7.5px dotted green ;
+    }    
+    .burger_btn {
+        display: none;
+    }
+    .right_side{
+
+
+        display: -webkit-box;
+
+
+        display: -ms-flexbox;
+
+
+        display: flex;
+
+    }
+    .right_side img {
+        width: 30px;
+        height: 30px;
+    }
+    .right_side a {
+        font-size:35px;
+    }
+    .logo img {
+        width: 300px;
+        height: 200px;
+    }
+    .txt_slogani{
+        height: 250px;
+    }
+    .txt_slogani h1{
+
+        font-size:70px;
+
+    }
+    .first_box{
+        height: 1700px;
+    }
+    .box_container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    }
+    .second_box{
+        height: 1400px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    }
+    .lisi_photo img{
+        width: 750px;
+        height: 650px;
+    }
+    .lisi_info{
+
+        width: 560px;
+        height: 450px;
+
+    }
+    .lisi_info p {
+        font-size:40px;
+    }
+    .shumba_photo img{
+        width: 750px;
+        height: 650px;
+    }
+    .shumba_info{
+        width: 560px;
+        height: 450px;
+
+    }
+    .shumba_info p {
+        font-size:40px;
+    }
+    .area_photo img{
+        width: 750px;
+        height: 650px;
+    }
+    .area_info{
+        width: 560px;
+        height: 450px;
+
+    }
+    .area_info p {
+        font-size:40px;
+    }
+    .area_box{
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        height: 1400px;
+
+
+    }
+    .person{
+
+        height: 800px;
+    }
+    .person img{
+        width: 500px;
+        height: 580px;
+        -o-object-fit: cover;
+           object-fit: cover;
+
+
+    }
+    .person_photo{
+
+        display: -webkit-box;
+
+        display: -ms-flexbox;
+
+        display: flex;
+        height: 150px;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-align:start;
+            -ms-flex-align:start;
+                align-items:start;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    }
+    .person_name{
+        height: 560px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-align: end;
+            -ms-flex-align: end;
+                align-items: end;
+        gap: 152px;
+
+    }
+    .person_name p{
+        font-size: 45px;
+    }
+    .content{
+    height: 5370px;
+    }
+    .main_container{
+        height: 5120px;
+    }
+    .footer img {
+        -o-object-fit:fill;
+           object-fit:fill;
+    }
+    .social img {
+        width: 60px;
+        height: 60px;
+    }
+    .cont_info{
+        width: 600px;
+        height: 78px;
+    }
+   .cont_info a {
+    font-size: 22px;
+   }
+   .cont_info p {
+    font-size:20px;
+   }
+}
